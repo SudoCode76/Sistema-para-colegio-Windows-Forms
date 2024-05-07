@@ -1,0 +1,9 @@
+F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\bin\Debug\CapaDeNegocio.dll
+F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\bin\Debug\CapaDeNegocio.pdb
+F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\bin\Debug\CapaDeDatos.dll
+F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\bin\Debug\CapaDeDatos.pdb
+F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNegocio.csproj.AssemblyReference.cache
+F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNegocio.csproj.CoreCompileInputs.cache
+F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNe.701FBC6E.Up2Date
+F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNegocio.dll
+F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNegocio.pdb
