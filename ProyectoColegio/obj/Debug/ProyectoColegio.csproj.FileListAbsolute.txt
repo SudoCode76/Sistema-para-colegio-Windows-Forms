@@ -29,3 +29,33 @@ F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\obj\Debug\ProyectoColegio.r
 F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\obj\Debug\ProyectoColegio.regisrarCursos.resources
 F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\obj\Debug\ProyectoColegio.registrarPadre.resources
 F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\obj\Debug\ProyectoColegio.FormPrincipal.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\bin\Debug\ProyectoColegio.exe.config
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\bin\Debug\ProyectoColegio.exe
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\bin\Debug\ProyectoColegio.pdb
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.csproj.AssemblyReference.cache
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.AcercaDeNosotro.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.Actualizaciones.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.FrmRecuperarContraseña.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.FrmRegistroEstudiantes.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.login.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.Properties.Resources.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.regisrarCursos.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.registrarAdministrativo.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.registrarCalificacion.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.registrarGestion.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.registrarGrupo.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.registrarInscripcion.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.registrarMateria.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.registrarMensualidad.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.registrarPadre.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.registrarProfesor.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.registrarProgramacion.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.registrarUsuario.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.csproj.GenerateResource.cache
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.csproj.CoreCompileInputs.cache
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\Proyecto.F8B0E2E2.Up2Date
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.exe
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.pdb
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.dashBoardForm.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.estudiantesForm.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.dashboard.resources

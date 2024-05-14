@@ -11,13 +11,18 @@ using System.Windows.Forms;
 
 namespace ProyectoColegio
 {
-    public partial class FormPrincipal : Form
+    public partial class dashBoardForm : Form
     {
-        public FormPrincipal()
+        private Usuario usuario;
+        public dashBoardForm(Usuario usuario)
         {
             InitializeComponent();
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
             perzonalizardiseño();
+            this.usuario = usuario;
+            labelCargo.Text = $"Cargo: {usuario.TipoUsuario}";
+            labelNombre.Text = $"Nombre: {usuario.Nombre}";
+            labelApellido.Text = $"Apellido: {usuario.ApellidoPaterno}";
         }
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -67,13 +72,7 @@ namespace ProyectoColegio
             mostrarsubmenu(panelgestionacademica);
         }
 
-        private void btnregistroestudiantes_Click(object sender, EventArgs e)
-        {
-            //mostrar nuevo formulario
-            abrirformularios(new FrmRegistroEstudiantes());
-            //---------------------
-            ocultarsubmenu();
-        }
+        
 
         private void btnregistroprofesores_Click(object sender, EventArgs e)
         {
@@ -188,8 +187,6 @@ namespace ProyectoColegio
             Formulariohijo.TopLevel = false;
             Formulariohijo.FormBorderStyle= FormBorderStyle.None;
             Formulariohijo.Dock = DockStyle.Fill;   
-            btnreportedocente.Controls.Add(Formulariohijo);
-            btnreportedocente.Tag = Formulariohijo;
             Formulariohijo.BringToFront();
             Formulariohijo.Show();
         }
@@ -385,5 +382,25 @@ namespace ProyectoColegio
         {
             ocultarsubmenu();
         }
+
+
+        //botones que abren formulario
+        private void btnregistroestudiantes_Click(object sender, EventArgs e)
+        {
+            panelDashboard.Controls.Clear();
+            estudiantesForm formEstudiantes = new estudiantesForm();
+            formEstudiantes.TopLevel = false;
+            formEstudiantes.Dock = DockStyle.Fill;
+            panelDashboard.Controls.Add(formEstudiantes);
+            panelDashboard.Show();
+            //---------------------
+            ocultarsubmenu();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }

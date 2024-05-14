@@ -7,3 +7,12 @@ F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\obj\Debug\Cap
 F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNe.701FBC6E.Up2Date
 F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNegocio.dll
 F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNegocio.pdb
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeNegocio\bin\Debug\CapaDeNegocio.dll
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeNegocio\bin\Debug\CapaDeNegocio.pdb
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeNegocio\bin\Debug\CapaDeDatos.dll
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeNegocio\bin\Debug\CapaDeDatos.pdb
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNegocio.csproj.AssemblyReference.cache
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNe.701FBC6E.Up2Date
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNegocio.dll
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeNegocio\obj\Debug\CapaDeNegocio.pdb

@@ -4,3 +4,9 @@ F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeDatos\obj\Debug\CapaD
 F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeDatos\obj\Debug\CapaDeDatos.csproj.CoreCompileInputs.cache
 F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeDatos\obj\Debug\CapaDeDatos.dll
 F:\Escritorio\Udabol\ProyectoColegio\ProyectoColegio\CapaDeDatos\obj\Debug\CapaDeDatos.pdb
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeDatos\bin\Debug\CapaDeDatos.dll
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeDatos\bin\Debug\CapaDeDatos.pdb
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeDatos\obj\Debug\CapaDeDatos.csproj.AssemblyReference.cache
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeDatos\obj\Debug\CapaDeDatos.csproj.CoreCompileInputs.cache
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeDatos\obj\Debug\CapaDeDatos.dll
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\CapaDeDatos\obj\Debug\CapaDeDatos.pdb

@@ -63,6 +63,19 @@
     <Compile Include="Actualizaciones.Designer.cs">
       <DependentUpon>Actualizaciones.cs</DependentUpon>
     </Compile>
+    <Compile Include="baseDeDatos.cs" />
+    <Compile Include="dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="estudiantesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="estudiantesForm.Designer.cs">
+      <DependentUpon>estudiantesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMenus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,6 +180,12 @@
     <EmbeddedResource Include="Actualizaciones.resx">
       <DependentUpon>Actualizaciones.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="estudiantesForm.resx">
+      <DependentUpon>estudiantesForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMenus.resx">
       <DependentUpon>FrmMenus.cs</DependentUpon>
     </EmbeddedResource>
@@ -236,12 +255,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="CapaDeNegocio\CapaDeNegocio.csproj">
-      <Project>{7d140d6d-29db-4d46-9acb-75af6a732aae}</Project>
-      <Name>CapaDeNegocio</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

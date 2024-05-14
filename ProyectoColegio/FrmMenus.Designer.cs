@@ -1,6 +1,6 @@
 ﻿namespace ProyectoColegio
 {
-    partial class FormPrincipal
+    partial class dashBoardForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(dashBoardForm));
             this.menulateral = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panelconfiguracion = new System.Windows.Forms.Panel();
             this.btnsoportetecnico = new System.Windows.Forms.Button();
             this.btnacercadenosotros = new System.Windows.Forms.Button();
@@ -70,9 +71,9 @@
             this.btnregistroestudiantes = new System.Windows.Forms.Button();
             this.btngestionacademica = new Guna.UI.WinForms.GunaButton();
             this.panelcargo = new System.Windows.Forms.Panel();
-            this.lblApellido = new System.Windows.Forms.Label();
-            this.lblNombre = new System.Windows.Forms.Label();
-            this.lblCargo = new System.Windows.Forms.Label();
+            this.labelApellido = new System.Windows.Forms.Label();
+            this.labelNombre = new System.Windows.Forms.Label();
+            this.labelCargo = new System.Windows.Forms.Label();
             this.ptbUsuario = new System.Windows.Forms.PictureBox();
             this.lblbienvenida = new System.Windows.Forms.Label();
             this.gunaSeparator2 = new Guna.UI.WinForms.GunaSeparator();
@@ -83,9 +84,8 @@
             this.btnmaximo = new System.Windows.Forms.PictureBox();
             this.btncerrarsistema = new System.Windows.Forms.PictureBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.btnreportedocente = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.fecha = new System.Windows.Forms.Timer(this.components);
+            this.panelDashboard = new System.Windows.Forms.Panel();
             this.menulateral.SuspendLayout();
             this.panelconfiguracion.SuspendLayout();
             this.panelreporteadmin.SuspendLayout();
@@ -100,14 +100,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnmaximo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrarsistema)).BeginInit();
-            this.btnreportedocente.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // menulateral
             // 
             this.menulateral.AutoScroll = true;
             this.menulateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(37)))), ((int)(((byte)(67)))));
+            this.menulateral.Controls.Add(this.button1);
             this.menulateral.Controls.Add(this.panelconfiguracion);
             this.menulateral.Controls.Add(this.btnconfiguracion);
             this.menulateral.Controls.Add(this.panelreporteadmin);
@@ -126,8 +125,18 @@
             this.menulateral.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menulateral.Location = new System.Drawing.Point(0, 0);
             this.menulateral.Name = "menulateral";
-            this.menulateral.Size = new System.Drawing.Size(262, 772);
+            this.menulateral.Size = new System.Drawing.Size(262, 715);
             this.menulateral.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 1356);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panelconfiguracion
             // 
@@ -137,7 +146,7 @@
             this.panelconfiguracion.Controls.Add(this.btnactualizacion);
             this.panelconfiguracion.Controls.Add(this.btnusuarios);
             this.panelconfiguracion.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelconfiguracion.Location = new System.Drawing.Point(0, 1216);
+            this.panelconfiguracion.Location = new System.Drawing.Point(0, 1220);
             this.panelconfiguracion.Name = "panelconfiguracion";
             this.panelconfiguracion.Size = new System.Drawing.Size(245, 142);
             this.panelconfiguracion.TabIndex = 15;
@@ -224,7 +233,7 @@
             this.btnconfiguracion.ForeColor = System.Drawing.Color.White;
             this.btnconfiguracion.Image = ((System.Drawing.Image)(resources.GetObject("btnconfiguracion.Image")));
             this.btnconfiguracion.ImageSize = new System.Drawing.Size(28, 28);
-            this.btnconfiguracion.Location = new System.Drawing.Point(0, 1169);
+            this.btnconfiguracion.Location = new System.Drawing.Point(0, 1173);
             this.btnconfiguracion.Name = "btnconfiguracion";
             this.btnconfiguracion.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(135)))), ((int)(((byte)(177)))));
             this.btnconfiguracion.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -244,7 +253,7 @@
             this.panelreporteadmin.Controls.Add(this.btnreportepagos);
             this.panelreporteadmin.Controls.Add(this.btnreporteprofesores);
             this.panelreporteadmin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelreporteadmin.Location = new System.Drawing.Point(0, 1027);
+            this.panelreporteadmin.Location = new System.Drawing.Point(0, 1031);
             this.panelreporteadmin.Name = "panelreporteadmin";
             this.panelreporteadmin.Size = new System.Drawing.Size(245, 142);
             this.panelreporteadmin.TabIndex = 13;
@@ -331,7 +340,7 @@
             this.btnreporteadministrativo.ForeColor = System.Drawing.Color.White;
             this.btnreporteadministrativo.Image = ((System.Drawing.Image)(resources.GetObject("btnreporteadministrativo.Image")));
             this.btnreporteadministrativo.ImageSize = new System.Drawing.Size(28, 28);
-            this.btnreporteadministrativo.Location = new System.Drawing.Point(0, 980);
+            this.btnreporteadministrativo.Location = new System.Drawing.Point(0, 984);
             this.btnreporteadministrativo.Name = "btnreporteadministrativo";
             this.btnreporteadministrativo.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(135)))), ((int)(((byte)(177)))));
             this.btnreporteadministrativo.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -347,7 +356,7 @@
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 1358);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 1379);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(245, 180);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -364,7 +373,7 @@
             this.panelreportesacademicos.Controls.Add(this.btnreportenotas);
             this.panelreportesacademicos.Controls.Add(this.btnreporteinscripcion);
             this.panelreportesacademicos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelreportesacademicos.Location = new System.Drawing.Point(0, 800);
+            this.panelreportesacademicos.Location = new System.Drawing.Point(0, 804);
             this.panelreportesacademicos.Name = "panelreportesacademicos";
             this.panelreportesacademicos.Size = new System.Drawing.Size(245, 180);
             this.panelreportesacademicos.TabIndex = 10;
@@ -468,7 +477,7 @@
             this.btnreportesacademicos.ForeColor = System.Drawing.Color.White;
             this.btnreportesacademicos.Image = ((System.Drawing.Image)(resources.GetObject("btnreportesacademicos.Image")));
             this.btnreportesacademicos.ImageSize = new System.Drawing.Size(28, 28);
-            this.btnreportesacademicos.Location = new System.Drawing.Point(0, 753);
+            this.btnreportesacademicos.Location = new System.Drawing.Point(0, 757);
             this.btnreportesacademicos.Name = "btnreportesacademicos";
             this.btnreportesacademicos.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(135)))), ((int)(((byte)(177)))));
             this.btnreportesacademicos.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -485,7 +494,7 @@
             this.panelgestioncomunicacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(64)))), ((int)(((byte)(98)))));
             this.panelgestioncomunicacion.Controls.Add(this.btnregistropadre);
             this.panelgestioncomunicacion.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelgestioncomunicacion.Location = new System.Drawing.Point(0, 711);
+            this.panelgestioncomunicacion.Location = new System.Drawing.Point(0, 715);
             this.panelgestioncomunicacion.Name = "panelgestioncomunicacion";
             this.panelgestioncomunicacion.Size = new System.Drawing.Size(245, 42);
             this.panelgestioncomunicacion.TabIndex = 8;
@@ -521,7 +530,7 @@
             this.btngestioncomunicacion.ForeColor = System.Drawing.Color.White;
             this.btngestioncomunicacion.Image = ((System.Drawing.Image)(resources.GetObject("btngestioncomunicacion.Image")));
             this.btngestioncomunicacion.ImageSize = new System.Drawing.Size(28, 28);
-            this.btngestioncomunicacion.Location = new System.Drawing.Point(0, 664);
+            this.btngestioncomunicacion.Location = new System.Drawing.Point(0, 668);
             this.btngestioncomunicacion.Name = "btngestioncomunicacion";
             this.btngestioncomunicacion.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(135)))), ((int)(((byte)(177)))));
             this.btngestioncomunicacion.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -543,7 +552,7 @@
             this.panelgestionadministrativa.Controls.Add(this.btngestionescolar);
             this.panelgestionadministrativa.Controls.Add(this.btnregadministrativo);
             this.panelgestionadministrativa.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelgestionadministrativa.Location = new System.Drawing.Point(0, 449);
+            this.panelgestionadministrativa.Location = new System.Drawing.Point(0, 453);
             this.panelgestionadministrativa.Name = "panelgestionadministrativa";
             this.panelgestionadministrativa.Size = new System.Drawing.Size(245, 215);
             this.panelgestionadministrativa.TabIndex = 4;
@@ -671,7 +680,7 @@
             this.btngestionadm.OnHoverForeColor = System.Drawing.Color.White;
             this.btngestionadm.OnHoverImage = null;
             this.btngestionadm.OnPressedColor = System.Drawing.Color.Black;
-            this.btngestionadm.Size = new System.Drawing.Size(245, 47);
+            this.btngestionadm.Size = new System.Drawing.Size(245, 51);
             this.btngestionadm.TabIndex = 3;
             this.btngestionadm.Text = "Gestión Administrativa";
             this.btngestionadm.Click += new System.EventHandler(this.btngestionadm_Click);
@@ -803,9 +812,9 @@
             // 
             // panelcargo
             // 
-            this.panelcargo.Controls.Add(this.lblApellido);
-            this.panelcargo.Controls.Add(this.lblNombre);
-            this.panelcargo.Controls.Add(this.lblCargo);
+            this.panelcargo.Controls.Add(this.labelApellido);
+            this.panelcargo.Controls.Add(this.labelNombre);
+            this.panelcargo.Controls.Add(this.labelCargo);
             this.panelcargo.Controls.Add(this.ptbUsuario);
             this.panelcargo.Controls.Add(this.lblbienvenida);
             this.panelcargo.Controls.Add(this.gunaSeparator2);
@@ -816,41 +825,41 @@
             this.panelcargo.TabIndex = 0;
             this.panelcargo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelcargo_MouseDown);
             // 
-            // lblApellido
+            // labelApellido
             // 
-            this.lblApellido.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblApellido.AutoSize = true;
-            this.lblApellido.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblApellido.ForeColor = System.Drawing.Color.White;
-            this.lblApellido.Location = new System.Drawing.Point(118, 117);
-            this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(54, 16);
-            this.lblApellido.TabIndex = 19;
-            this.lblApellido.Text = "Apellido";
+            this.labelApellido.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelApellido.AutoSize = true;
+            this.labelApellido.Font = new System.Drawing.Font("Century", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelApellido.ForeColor = System.Drawing.Color.White;
+            this.labelApellido.Location = new System.Drawing.Point(118, 117);
+            this.labelApellido.Name = "labelApellido";
+            this.labelApellido.Size = new System.Drawing.Size(48, 15);
+            this.labelApellido.TabIndex = 19;
+            this.labelApellido.Text = "Apellido";
             // 
-            // lblNombre
+            // labelNombre
             // 
-            this.lblNombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Century", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombre.ForeColor = System.Drawing.Color.White;
-            this.lblNombre.Location = new System.Drawing.Point(118, 97);
-            this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(55, 16);
-            this.lblNombre.TabIndex = 18;
-            this.lblNombre.Text = "Nombre";
+            this.labelNombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelNombre.AutoSize = true;
+            this.labelNombre.Font = new System.Drawing.Font("Century", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNombre.ForeColor = System.Drawing.Color.White;
+            this.labelNombre.Location = new System.Drawing.Point(118, 97);
+            this.labelNombre.Name = "labelNombre";
+            this.labelNombre.Size = new System.Drawing.Size(49, 15);
+            this.labelNombre.TabIndex = 18;
+            this.labelNombre.Text = "Nombre";
             // 
-            // lblCargo
+            // labelCargo
             // 
-            this.lblCargo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lblCargo.AutoSize = true;
-            this.lblCargo.Font = new System.Drawing.Font("Century", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCargo.ForeColor = System.Drawing.Color.White;
-            this.lblCargo.Location = new System.Drawing.Point(118, 76);
-            this.lblCargo.Name = "lblCargo";
-            this.lblCargo.Size = new System.Drawing.Size(60, 18);
-            this.lblCargo.TabIndex = 17;
-            this.lblCargo.Text = "Cargo:";
+            this.labelCargo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.labelCargo.AutoSize = true;
+            this.labelCargo.Font = new System.Drawing.Font("Century", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCargo.ForeColor = System.Drawing.Color.White;
+            this.labelCargo.Location = new System.Drawing.Point(118, 76);
+            this.labelCargo.Name = "labelCargo";
+            this.labelCargo.Size = new System.Drawing.Size(47, 15);
+            this.labelCargo.TabIndex = 17;
+            this.labelCargo.Text = "Cargo:";
             // 
             // ptbUsuario
             // 
@@ -892,7 +901,7 @@
             this.panelsuperior.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelsuperior.Location = new System.Drawing.Point(262, 0);
             this.panelsuperior.Name = "panelsuperior";
-            this.panelsuperior.Size = new System.Drawing.Size(1030, 32);
+            this.panelsuperior.Size = new System.Drawing.Size(887, 32);
             this.panelsuperior.TabIndex = 1;
             this.panelsuperior.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelsuperior_MouseDown);
             // 
@@ -921,7 +930,7 @@
             this.btncerrarseccion.ForeColor = System.Drawing.Color.White;
             this.btncerrarseccion.Image = ((System.Drawing.Image)(resources.GetObject("btncerrarseccion.Image")));
             this.btncerrarseccion.ImageSize = new System.Drawing.Size(17, 17);
-            this.btncerrarseccion.Location = new System.Drawing.Point(773, 3);
+            this.btncerrarseccion.Location = new System.Drawing.Point(630, 3);
             this.btncerrarseccion.Name = "btncerrarseccion";
             this.btncerrarseccion.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(85)))), ((int)(((byte)(133)))));
             this.btncerrarseccion.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -937,7 +946,7 @@
             // 
             this.btnminimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnminimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnminimizar.Image")));
-            this.btnminimizar.Location = new System.Drawing.Point(943, 6);
+            this.btnminimizar.Location = new System.Drawing.Point(800, 6);
             this.btnminimizar.Name = "btnminimizar";
             this.btnminimizar.Size = new System.Drawing.Size(17, 17);
             this.btnminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -949,7 +958,7 @@
             // 
             this.btnmaximo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnmaximo.Image = ((System.Drawing.Image)(resources.GetObject("btnmaximo.Image")));
-            this.btnmaximo.Location = new System.Drawing.Point(975, 6);
+            this.btnmaximo.Location = new System.Drawing.Point(832, 6);
             this.btnmaximo.Name = "btnmaximo";
             this.btnmaximo.Size = new System.Drawing.Size(17, 17);
             this.btnmaximo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -961,7 +970,7 @@
             // 
             this.btncerrarsistema.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btncerrarsistema.Image = ((System.Drawing.Image)(resources.GetObject("btncerrarsistema.Image")));
-            this.btncerrarsistema.Location = new System.Drawing.Point(1007, 7);
+            this.btncerrarsistema.Location = new System.Drawing.Point(864, 7);
             this.btncerrarsistema.Name = "btncerrarsistema";
             this.btncerrarsistema.Size = new System.Drawing.Size(13, 13);
             this.btncerrarsistema.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -969,46 +978,31 @@
             this.btncerrarsistema.TabStop = false;
             this.btncerrarsistema.Click += new System.EventHandler(this.btncerrarsistema_Click);
             // 
-            // btnreportedocente
-            // 
-            this.btnreportedocente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(85)))), ((int)(((byte)(133)))));
-            this.btnreportedocente.Controls.Add(this.pictureBox2);
-            this.btnreportedocente.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnreportedocente.ForeColor = System.Drawing.Color.Black;
-            this.btnreportedocente.Location = new System.Drawing.Point(262, 32);
-            this.btnreportedocente.Name = "btnreportedocente";
-            this.btnreportedocente.Size = new System.Drawing.Size(1030, 740);
-            this.btnreportedocente.TabIndex = 2;
-            this.btnreportedocente.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnreportedocente_MouseDown);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(347, 182);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(373, 363);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // fecha
             // 
             this.fecha.Enabled = true;
             this.fecha.Tick += new System.EventHandler(this.fecha_Tick);
             // 
-            // FormPrincipal
+            // panelDashboard
+            // 
+            this.panelDashboard.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDashboard.Location = new System.Drawing.Point(262, 32);
+            this.panelDashboard.Name = "panelDashboard";
+            this.panelDashboard.Size = new System.Drawing.Size(887, 683);
+            this.panelDashboard.TabIndex = 2;
+            // 
+            // dashBoardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1292, 772);
-            this.Controls.Add(this.btnreportedocente);
+            this.ClientSize = new System.Drawing.Size(1149, 715);
+            this.Controls.Add(this.panelDashboard);
             this.Controls.Add(this.panelsuperior);
             this.Controls.Add(this.menulateral);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(1000, 606);
-            this.Name = "FormPrincipal";
+            this.Name = "dashBoardForm";
             this.Text = "Otros";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menulateral.ResumeLayout(false);
@@ -1027,8 +1021,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnminimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnmaximo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btncerrarsistema)).EndInit();
-            this.btnreportedocente.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1064,8 +1056,6 @@
         private System.Windows.Forms.PictureBox btncerrarsistema;
         private System.Windows.Forms.PictureBox btnminimizar;
         private System.Windows.Forms.PictureBox btnmaximo;
-        private System.Windows.Forms.Panel btnreportedocente;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private Guna.UI.WinForms.GunaButton btncerrarseccion;
         private System.Windows.Forms.Label lblfecha;
         private System.Windows.Forms.Timer fecha;
@@ -1087,9 +1077,11 @@
         private System.Windows.Forms.Button btnactualizacion;
         private System.Windows.Forms.Button btnusuarios;
         private Guna.UI.WinForms.GunaButton btnconfiguracion;
-        private System.Windows.Forms.Label lblApellido;
-        private System.Windows.Forms.Label lblNombre;
-        private System.Windows.Forms.Label lblCargo;
+        private System.Windows.Forms.Label labelApellido;
+        private System.Windows.Forms.Label labelNombre;
+        private System.Windows.Forms.Label labelCargo;
         private System.Windows.Forms.Button btnfechapago;
+        private System.Windows.Forms.Panel panelDashboard;
+        private System.Windows.Forms.Button button1;
     }
 }

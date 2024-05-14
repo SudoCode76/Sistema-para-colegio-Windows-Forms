@@ -1,165 +1,214 @@
-create database sistemacolegio
+CREATE DATABASE SistemaColegio;
 
-use sistemacolegio
+USE SistemaColegio;
 
-create table usuarios(
-	Idusuario int IDENTITY (1,1) primary key,
-	Ci int unique not null,
-	Nombres nvarchar (50) not null,
-	Apellidos nvarchar (100) not null,
-	Email nvarchar (150) not null,
-	Contrase馻 nvarchar (50) not null,
-	Estado bit,
-	idPermiso int foreign key references Permiso (IdPermiso),
-	IdCargo int foreign key references Cargo (IdCargo)
-)
 
-Create table Grupo(
-	IdGrupo int IDENTITY (1,1) primary key,
-	Nombre varchar (50)
-)
+DROP DATABASE [SistemaColegio];
 
-Create table Cargo(
-	IdCargo int IDENTITY (1,1) primary key,
-	Nombre varchar (50) not null
-)
+CREATE TABLE Usuarios(
+	nombreUsuario NVARCHAR(20) PRIMARY KEY NOt NULL,
+	contrasena NVARCHAR(20) NOT NULL,
+	nombre NVARCHAR(50)  NOT NULL,
+	apellidoPaterno NVARCHAR(50) NOT NULL,
+	apellidoMaterno NVARCHAR(50) NOT NULL,
+	tipoUsuario NVARCHAR(50) NOT NULL,
+);
+GO
+INSERT INTO Usuarios VALUES('admin','admin','nombreAdmin','appPatAdmin','appMatAdmin','Administrador')
+INSERT INTO Usuarios VALUES('profesor','profesor','nombreprofesor','appPatprofesor','appMatprofesor','Profesor')
 
-Create table Permiso(
-	IdPermiso int IDENTITY (1,1) primary key,
-	Nombre varchar (50)
-)
+SELECT * FROM Usuarios;
 
-Create table Privilegio(
-	IdPrivilegio int IDENTITY (1,1) primary key,
-	idPermiso int foreign key references Permiso (IdPermiso),
-	IdGrupo int foreign key references Grupo (IdGrupo),
-	Nombre varchar (50)
-)
-------------------------------------------------------------------------------
 
-Create table Estudiante(
-	IdEstudiante int IDENTITY (1,1) primary key,
-	Ci varchar (20) unique not null,
-	Nombres varchar (50) not null,
-	Apellidos varchar (100) not null,
-	Genero varchar (20) not null,
-	Direcci髇 nvarchar (50) not null,
-	FechaNacimiento date not null,
-	Celular varchar (50),
-	Nacionalidad varchar (50)
-)
 
-Create table NivelCurso(
-	IdNivelCurso int IDENTITY (1,1) primary key,
-	Nombre varchar (50) not null,
-	Nivel varchar (50) not null
-)
 
-Create table Profesores(
-	IdProfesor int IDENTITY (1,1) primary key,
-	IdCargo int Foreign key references Cargo (IdCargo),
-	IdPrivilegio int Foreign key references Privilegio (IdPrivilegio),
-	IdNivelCurso int Foreign key references NivelCurso (IdNivelCurso),
-	NombreCompleto varchar (100) not null,
-	ci varchar (20),
-	Genero varchar (20),
-	FechaNacimiento date not null,
-	Celular varchar (50) not null,
-	Direccion varchar (50) not null,
-	Correo varchar (50),
-	Nacionalidad varchar (50) not null
-)
 
-Create table Padre(
-	IdPadre int IDENTITY (1,1) primary key,
-	NombreCompleto varchar (50) not null,
-	Genero varchar (50) not null,
-	Telefono varchar (50) not null,
-	RelacionEstudiante varchar (50) not null,
-	IdEstudiante int Foreign key references Estudiante (IdEstudiante),
-	IdNivelCurso int Foreign key references NivelCurso (IdNivelCurso)
-)
+-- Permiso
+CREATE TABLE Permiso (
+    IdPermiso INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(50)
+);
 
-Create table Materia(
-	IdMateria int IDENTITY (1,1) primary key,
-	IdNivelCurso int Foreign key references NivelCurso (IdNivelCurso),
-	Nombre varchar (50) not null
-)
+-- Cargo
+CREATE TABLE Cargo (
+    IdCargo INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(50) NOT NULL
+);
 
-Create table Programacion(
-	IdProgramacion int IDENTITY (1,1) primary key,
-	IdInscripcion int Foreign key references Inscripcion (IdInscripcion),
-	IdProfesor int Foreign key references Profesores (IdProfesor),
-	IdMateria int Foreign key references Materias (IdMateria),
-	IdCalendarioEscolar int Foreign key references CalendarioEscolar (IdCalendarioEscolar),
-	Dia varchar (20) not null,
-	HorarioInicio varchar (20) not null,
-	HorarioFin varchar (20) not null
-)
+-- Grupo
+CREATE TABLE Grupo (
+    IdGrupo INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(50)
+);
 
-Create table Inscripcion(
-	IdInscripcion int IDENTITY (1,1) primary key,
-	IdEstudiantes int Foreign key references Estudiante (IdEstudiante),
-	IdNivelCurso int Foreign key references NivelCurso (IdNivelCurso),
-	IdPadre int Foreign key references Padre (IdPadre),
-	FechaInscripcion date not null,
-	ContactoEmergencia varchar (50) not null,
-	EducacionAnterior varchar (20) not null,
-	Enfermedad varchar (50) not null,
-	Obvervaciones varchar (100)
-)
+-- Usuarios
 
-Create table DetalleInscripcion(
-	IdDetalleInscripcion int IDENTITY (1,1) primary key,
-	IdInscripcion int Foreign key references Inscripcion (IdInscripcion),
-	IdMateria int Foreign key references Materia (IdMateria),
-)
 
-Create table Nota(
-	IdNota int IDENTITY (1,1) primary key,
-	IdInscripcion int Foreign key references Inscripcion (IdInscripcion),
-	IdMateria int Foreign key references Materia (IdMateria),
-	PrimerTrimestre int null,
-	SegundoTrimestre int null,
-	TercerTrimestre int null
-)
 
-Create table CalendarioEscolar(
-	IdCalendarioEscolar int IDENTITY (1,1) primary key,
-	Nombre varchar (50) not null,
-	Descripcion varchar (50) null,
-	FechaInicio date not null,
-	FechaFinal date null
-)
 
-Create table Administrativo(
-	IdAdministrativo int IDENTITY (1,1) primary key,
-	IdCargo int Foreign key references Cargo (IdCargo),
-	IdPrivilegio int Foreign key references Privilegio (IdPrivilegio), 
-	Nombre varchar (50) not null,
-	Ci varchar (20) not null,
-	Genero varchar (20) null,
-	FechaNacimiento date not null,
-	Celular varchar (20) not null,
-	Direccion varchar (50) null,
-	Correo varchar (50) null,
-	Nacionalidad varchar (50)
-)
-Create table TipoPago(
-	IdTipoPago int IDENTITY (1,1) primary key,
-	Nombre varchar (50) not null,
-	Monto int null
-)
 
-Create table Mensualidad(
-	IdMensualidad int IDENTITY (1,1) primary key,
-	IdInscripcion int Foreign key references Inscripcion (IdInscripcion),
-	IdTipoPago int Foreign key references TipoPago (IdTipoPago),
-	FechaPago date not null,
-	MontoPago int not null
-)
-------------------------------------------------------------------------------
---PROCEDIMIENTOS ALMACENADOS
-Create procedure CrearUsuarios(
 
-)
+
+
+-- Privilegio
+CREATE TABLE Privilegio (
+    IdPrivilegio INT IDENTITY(1,1) PRIMARY KEY,
+    IdPermiso INT,
+    IdGrupo INT,
+    Nombre NVARCHAR(50),
+    FOREIGN KEY (IdPermiso) REFERENCES Permiso(IdPermiso),
+    FOREIGN KEY (IdGrupo) REFERENCES Grupo(IdGrupo)
+);
+
+-- Estudiante
+CREATE TABLE Estudiante (
+    IdEstudiante INT IDENTITY(1,1) PRIMARY KEY,
+    Ci NVARCHAR(20) UNIQUE NOT NULL,
+    Nombres NVARCHAR(50) NOT NULL,
+    Apellidos NVARCHAR(100) NOT NULL,
+    Genero NVARCHAR(20) NOT NULL,
+    Direccion NVARCHAR(255) NOT NULL, -- Aumentado el tama帽o
+    FechaNacimiento DATE NOT NULL,
+    Celular NVARCHAR(50),
+    Nacionalidad NVARCHAR(50)
+);
+
+-- NivelCurso
+CREATE TABLE NivelCurso (
+    IdNivelCurso INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(50) NOT NULL,
+    Nivel NVARCHAR(50) NOT NULL
+);
+
+-- Profesores
+CREATE TABLE Profesores (
+    IdProfesor INT IDENTITY(1,1) PRIMARY KEY,
+    IdCargo INT,
+    IdPrivilegio INT,
+    IdNivelCurso INT,
+    NombreCompleto NVARCHAR(100) NOT NULL,
+    Ci NVARCHAR(20),
+    Genero NVARCHAR(20),
+    FechaNacimiento DATE NOT NULL,
+    Celular NVARCHAR(50) NOT NULL,
+    Direccion NVARCHAR(255) NOT NULL, -- Aumentado el tama帽o
+    Correo NVARCHAR(150), -- Aumentado el tama帽o
+    Nacionalidad NVARCHAR(50) NOT NULL,
+    FOREIGN KEY (IdCargo) REFERENCES Cargo(IdCargo),
+    FOREIGN KEY (IdPrivilegio) REFERENCES Privilegio(IdPrivilegio),
+    FOREIGN KEY (IdNivelCurso) REFERENCES NivelCurso(IdNivelCurso)
+);
+
+-- Padre
+CREATE TABLE Padre (
+    IdPadre INT IDENTITY(1,1) PRIMARY KEY,
+    NombreCompleto NVARCHAR(50) NOT NULL,
+    Genero NVARCHAR(50) NOT NULL,
+    Telefono NVARCHAR(50) NOT NULL,
+    RelacionEstudiante NVARCHAR(50) NOT NULL,
+    IdEstudiante INT,
+    IdNivelCurso INT,
+    FOREIGN KEY (IdEstudiante) REFERENCES Estudiante(IdEstudiante),
+    FOREIGN KEY (IdNivelCurso) REFERENCES NivelCurso(IdNivelCurso)
+);
+
+-- Materia
+CREATE TABLE Materia (
+    IdMateria INT IDENTITY(1,1) PRIMARY KEY,
+    IdNivelCurso INT,
+    Nombre NVARCHAR(50) NOT NULL,
+    FOREIGN KEY (IdNivelCurso) REFERENCES NivelCurso(IdNivelCurso)
+);
+
+-- Inscripci贸n, Programaci贸n, Nota, Calendario Escolar, Administrativo, TipoPago, Mensualidad
+-- Aqu铆 puedes continuar con las tablas restantes siguiendo el mismo patr贸n de correcciones.
+
+
+
+
+-- Inscripci贸n
+CREATE TABLE Inscripcion (
+    IdInscripcion INT IDENTITY(1,1) PRIMARY KEY,
+    IdEstudiante INT,
+    IdNivelCurso INT,
+    FechaInscripcion DATE NOT NULL,
+    ContactoEmergencia NVARCHAR(50) NOT NULL,
+    EducacionAnterior NVARCHAR(50) NOT NULL,
+    Enfermedad NVARCHAR(50),
+    Observaciones NVARCHAR(255),
+    FOREIGN KEY (IdEstudiante) REFERENCES Estudiante(IdEstudiante),
+    FOREIGN KEY (IdNivelCurso) REFERENCES NivelCurso(IdNivelCurso)
+);
+
+-- Calendario Escolar
+CREATE TABLE CalendarioEscolar (
+    IdCalendarioEscolar INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(50) NOT NULL,
+    Descripcion NVARCHAR(255),
+    FechaInicio DATE NOT NULL,
+    FechaFinal DATE
+);
+
+
+
+-- Programaci贸n
+CREATE TABLE Programacion (
+    IdProgramacion INT IDENTITY(1,1) PRIMARY KEY,
+    IdProfesor INT,
+    IdMateria INT,
+    IdCalendarioEscolar INT,
+    Dia NVARCHAR(20) NOT NULL,
+    HorarioInicio NVARCHAR(20) NOT NULL,
+    HorarioFin NVARCHAR(20) NOT NULL,
+    FOREIGN KEY (IdProfesor) REFERENCES Profesores(IdProfesor),
+    FOREIGN KEY (IdMateria) REFERENCES Materia(IdMateria),
+    FOREIGN KEY (IdCalendarioEscolar) REFERENCES CalendarioEscolar(IdCalendarioEscolar)
+);
+
+-- Nota
+CREATE TABLE Nota (
+    IdNota INT IDENTITY(1,1) PRIMARY KEY,
+    IdInscripcion INT,
+    IdMateria INT,
+    PrimerTrimestre INT,
+    SegundoTrimestre INT,
+    TercerTrimestre INT,
+    FOREIGN KEY (IdInscripcion) REFERENCES Inscripcion(IdInscripcion),
+    FOREIGN KEY (IdMateria) REFERENCES Materia(IdMateria)
+);
+
+-- Administrativo
+CREATE TABLE Administrativo (
+    IdAdministrativo INT IDENTITY(1,1) PRIMARY KEY,
+    IdCargo INT,
+    IdPrivilegio INT,
+    Nombre NVARCHAR(50) NOT NULL,
+    Ci NVARCHAR(20) NOT NULL,
+    Genero NVARCHAR(20),
+    FechaNacimiento DATE NOT NULL,
+    Celular NVARCHAR(20) NOT NULL,
+    Direccion NVARCHAR(255),
+    Correo NVARCHAR(150),
+    Nacionalidad NVARCHAR(50),
+    FOREIGN KEY (IdCargo) REFERENCES Cargo(IdCargo),
+    FOREIGN KEY (IdPrivilegio) REFERENCES Privilegio(IdPrivilegio)
+);
+
+-- Tipo de Pago
+CREATE TABLE TipoPago (
+    IdTipoPago INT IDENTITY(1,1) PRIMARY KEY,
+    Nombre NVARCHAR(50) NOT NULL,
+    Monto INT
+);
+
+-- Mensualidad
+CREATE TABLE Mensualidad (
+    IdMensualidad INT IDENTITY(1,1) PRIMARY KEY,
+    IdInscripcion INT,
+    IdTipoPago INT,
+    FechaPago DATE NOT NULL,
+    MontoPago INT NOT NULL,
+    FOREIGN KEY (IdInscripcion) REFERENCES Inscripcion(IdInscripcion),
+    FOREIGN KEY (IdTipoPago) REFERENCES TipoPago(IdTipoPago)
+);
+

@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\Escritorio\\Udabol\\ProyectoColegio\\",
+  "WorkspaceRootPath": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|f:\\escritorio\\udabol\\proyectocolegio\\proyectocolegio\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|c:\\users\\migue\\onedrive - universidad privada domingo savio\\proyectos\\sistema-para-colegio-windows-forms\\proyectocolegio\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|f:\\escritorio\\udabol\\proyectocolegio\\proyectocolegio\\frmmenus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|c:\\users\\migue\\onedrive - universidad privada domingo savio\\proyectos\\sistema-para-colegio-windows-forms\\proyectocolegio\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\proyectocolegio\\frmmenus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\frmmenus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|f:\\escritorio\\udabol\\proyectocolegio\\proyectocolegio\\registrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\registrarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\proyectocolegio\\basededatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\basededatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|F:\\Escritorio\\Udabol\\ProyectoColegio\\proyectocolegio\\registrarprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\registrarprofesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\proyectocolegio\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\proyectocolegio\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,70 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\Escritorio\\Udabol\\ProyectoColegio\\ProyectoColegio\\login.cs",
-              "RelativeDocumentMoniker": "ProyectoColegio\\login.cs",
-              "ToolTip": "F:\\Escritorio\\Udabol\\ProyectoColegio\\ProyectoColegio\\login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoColegio\\login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T13:31:51.843Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmMenus.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\Escritorio\\Udabol\\ProyectoColegio\\ProyectoColegio\\FrmMenus.cs",
-              "RelativeDocumentMoniker": "ProyectoColegio\\FrmMenus.cs",
-              "ToolTip": "F:\\Escritorio\\Udabol\\ProyectoColegio\\ProyectoColegio\\FrmMenus.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoColegio\\FrmMenus.cs [Dise\u00F1o]",
+              "Title": "dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\dashboard.cs",
+              "RelativeDocumentMoniker": "ProyectoColegio\\dashboard.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\dashboard.cs",
+              "RelativeToolTip": "ProyectoColegio\\dashboard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T13:28:57.276Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-14T05:04:49.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "registrarProfesor.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\Escritorio\\Udabol\\ProyectoColegio\\ProyectoColegio\\registrarProfesor.cs",
-              "RelativeDocumentMoniker": "ProyectoColegio\\registrarProfesor.cs",
-              "ToolTip": "F:\\Escritorio\\Udabol\\ProyectoColegio\\ProyectoColegio\\registrarProfesor.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoColegio\\registrarProfesor.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "dashboard.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\dashboard.cs",
+              "RelativeDocumentMoniker": "ProyectoColegio\\dashboard.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\dashboard.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoColegio\\dashboard.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T03:54:34.864Z",
+              "WhenOpened": "2024-05-14T04:56:07.066Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "registrarUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "F:\\Escritorio\\Udabol\\ProyectoColegio\\ProyectoColegio\\registrarUsuario.cs",
-              "RelativeDocumentMoniker": "ProyectoColegio\\registrarUsuario.cs",
-              "ToolTip": "F:\\Escritorio\\Udabol\\ProyectoColegio\\ProyectoColegio\\registrarUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoColegio\\registrarUsuario.cs [Dise\u00F1o]",
+              "Title": "FrmMenus.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\FrmMenus.cs",
+              "RelativeDocumentMoniker": "ProyectoColegio\\FrmMenus.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\FrmMenus.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoColegio\\FrmMenus.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T03:51:37.184Z",
+              "WhenOpened": "2024-05-12T21:47:21.605Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "baseDeDatos.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\baseDeDatos.cs",
+              "RelativeDocumentMoniker": "ProyectoColegio\\baseDeDatos.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\baseDeDatos.cs",
+              "RelativeToolTip": "ProyectoColegio\\baseDeDatos.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAuwAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T21:42:12.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\login.cs",
+              "RelativeDocumentMoniker": "ProyectoColegio\\login.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\login.cs",
+              "RelativeToolTip": "ProyectoColegio\\login.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAWwDwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T17:32:28.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\login.cs",
+              "RelativeDocumentMoniker": "ProyectoColegio\\login.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoColegio\\login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T13:31:51.843Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
