@@ -18,7 +18,11 @@ namespace ProyectoColegio
 
         public BaseDeDatos()
         {
+            //pc de mesa
             conexion = new SqlConnection("server=SUDO-DESKTOP\\SQLEXPRESS;database=SistemaColegio; integrated security=true");
+            //laptop
+            //conexion = new SqlConnection("server=DESKTOP-SO23BMP\\SQLEXPRESS;database=SistemaColegio; integrated security=true");
+
         }
 
         public void AbrirConexion()

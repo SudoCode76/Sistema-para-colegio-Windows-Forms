@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|c:\\users\\migue\\onedrive - universidad privada domingo savio\\proyectos\\sistema-para-colegio-windows-forms\\proyectocolegio\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|c:\\users\\migue\\onedrive - universidad privada domingo savio\\proyectos\\sistema-para-colegio-windows-forms\\proyectocolegio\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|c:\\users\\migue\\onedrive - universidad privada domingo savio\\proyectos\\sistema-para-colegio-windows-forms\\proyectocolegio\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|c:\\users\\migue\\onedrive - universidad privada domingo savio\\proyectos\\sistema-para-colegio-windows-forms\\proyectocolegio\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\capapresentacion\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\proyectocolegio\\frmmenus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\frmmenus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|c:\\users\\migue\\onedrive - universidad privada domingo savio\\proyectos\\sistema-para-colegio-windows-forms\\proyectocolegio\\capanegocio\\usuarionegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\capanegocio\\usuarionegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\proyectocolegio\\basededatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\basededatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|c:\\users\\migue\\onedrive - universidad privada domingo savio\\proyectos\\sistema-para-colegio-windows-forms\\proyectocolegio\\capadatos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\capadatos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\proyectocolegio\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\proyectocolegio\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|c:\\users\\migue\\onedrive - universidad privada domingo savio\\proyectos\\sistema-para-colegio-windows-forms\\proyectocolegio\\capadatos\\basededatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA417F0F-336F-4D99-87BF-63A35036A414}|ProyectoColegio\\ProyectoColegio.csproj|solutionrelative:proyectocolegio\\capadatos\\basededatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,78 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\dashboard.cs",
-              "RelativeDocumentMoniker": "ProyectoColegio\\dashboard.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\dashboard.cs",
-              "RelativeToolTip": "ProyectoColegio\\dashboard.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "UsuarioNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\capaNegocio\\UsuarioNegocio.cs",
+              "RelativeDocumentMoniker": "ProyectoColegio\\capaNegocio\\UsuarioNegocio.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\capaNegocio\\UsuarioNegocio.cs",
+              "RelativeToolTip": "ProyectoColegio\\capaNegocio\\UsuarioNegocio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T05:04:49.696Z",
+              "WhenOpened": "2024-05-24T23:16:52.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\capaDatos\\Usuario.cs",
+              "RelativeDocumentMoniker": "ProyectoColegio\\capaDatos\\Usuario.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\capaDatos\\Usuario.cs",
+              "RelativeToolTip": "ProyectoColegio\\capaDatos\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T23:13:34.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\capaPresentacion\\login.cs",
+              "RelativeDocumentMoniker": "ProyectoColegio\\capaPresentacion\\login.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\capaPresentacion\\login.cs",
+              "RelativeToolTip": "ProyectoColegio\\capaPresentacion\\login.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T23:08:16.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dashboard.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\dashboard.cs",
-              "RelativeDocumentMoniker": "ProyectoColegio\\dashboard.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\dashboard.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoColegio\\dashboard.cs [Dise\u00F1o]",
+              "Title": "login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\capaPresentacion\\login.cs",
+              "RelativeDocumentMoniker": "ProyectoColegio\\capaPresentacion\\login.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\capaPresentacion\\login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoColegio\\capaPresentacion\\login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T04:56:07.066Z",
+              "WhenOpened": "2024-05-24T23:08:14.552Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmMenus.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\FrmMenus.cs",
-              "RelativeDocumentMoniker": "ProyectoColegio\\FrmMenus.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\FrmMenus.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoColegio\\FrmMenus.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:47:21.605Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "baseDeDatos.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\baseDeDatos.cs",
-              "RelativeDocumentMoniker": "ProyectoColegio\\baseDeDatos.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\baseDeDatos.cs",
-              "RelativeToolTip": "ProyectoColegio\\baseDeDatos.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAuwAkAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T21:42:12.977Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "login.cs",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\login.cs",
-              "RelativeDocumentMoniker": "ProyectoColegio\\login.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\login.cs",
-              "RelativeToolTip": "ProyectoColegio\\login.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAWwDwAAAANAAAA",
+              "Title": "baseDeDatos.cs",
+              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\capaDatos\\baseDeDatos.cs",
+              "RelativeDocumentMoniker": "ProyectoColegio\\capaDatos\\baseDeDatos.cs",
+              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\capaDatos\\baseDeDatos.cs",
+              "RelativeToolTip": "ProyectoColegio\\capaDatos\\baseDeDatos.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAqwEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T17:32:28.961Z",
+              "WhenOpened": "2024-05-24T23:08:02.366Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\login.cs",
-              "RelativeDocumentMoniker": "ProyectoColegio\\login.cs",
-              "ToolTip": "C:\\Users\\migue\\OneDrive - Universidad Privada Domingo Savio\\PROYECTOS\\Sistema-para-colegio-Windows-Forms\\ProyectoColegio\\login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoColegio\\login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T13:31:51.843Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

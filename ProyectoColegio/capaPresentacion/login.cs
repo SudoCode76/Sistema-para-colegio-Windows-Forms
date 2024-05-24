@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoColegio.capaNegocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,17 +10,17 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.SqlClient;
 
 namespace ProyectoColegio
 {
     public partial class login : Form
     {
-        private BaseDeDatos baseDeDatos;
+        private UsuarioNegocio usuarioNegocio;
+
         public login()
         {
             InitializeComponent();
-            baseDeDatos = new BaseDeDatos();
+            usuarioNegocio = new UsuarioNegocio();
             textBoxContraseña.PasswordChar = '*';
         }
 
@@ -49,8 +50,7 @@ namespace ProyectoColegio
 
         private void btningresar_Click(object sender, EventArgs e)
         {
-            baseDeDatos.AbrirConexion();
-            Usuario usuario = baseDeDatos.ValidarUsuario(textBoxUsuario.Text, textBoxContraseña.Text);
+            Usuario usuario = usuarioNegocio.ValidarUsuario(textBoxUsuario.Text, textBoxContraseña.Text);
             if (usuario != null)
             {
                 dashboard dashboard = new dashboard(usuario);
@@ -61,7 +61,6 @@ namespace ProyectoColegio
             {
                 MessageBox.Show("Error");
             }
-            baseDeDatos.CerrarConexion();
 
 
         }

@@ -76,13 +76,11 @@ namespace ProyectoColegio
 
         private void btnregistroprofesores_Click(object sender, EventArgs e)
         {
-            abrirformularios(new registrarProfesor());
             ocultarsubmenu();
         }
 
         private void btnreportes_Click(object sender, EventArgs e)
         {
-            abrirformularios(new registrarCalificacion());
             ocultarsubmenu();
         }
 
@@ -136,7 +134,6 @@ namespace ProyectoColegio
 
         private void btnregconpersonal_Click(object sender, EventArgs e)
         {
-            abrirformularios(new registrarAdministrativo());
             ocultarsubmenu();
         }
 
@@ -213,43 +210,36 @@ namespace ProyectoColegio
 
         private void btninscripcion_Click(object sender, EventArgs e)
         {
-            abrirformularios(new registrarInscripcion());
             ocultarsubmenu();
         }
 
         private void btnprogramacion_Click(object sender, EventArgs e)
         {
-            abrirformularios(new registrarProgramacion());
             ocultarsubmenu();
         }
 
         private void btngestionescolar_Click(object sender, EventArgs e)
         {
-            abrirformularios(new registrarGestion());
             ocultarsubmenu();
         }
 
         private void btnmateria_Click(object sender, EventArgs e)
         {
-            abrirformularios(new registrarMateria());
             ocultarsubmenu();
         }
 
         private void btngrupo_Click(object sender, EventArgs e)
         {
-            abrirformularios(new registrarGrupo());
             ocultarsubmenu();
         }
 
         private void btnMensualidad_Click(object sender, EventArgs e)
         {
-            abrirformularios(new registrarMensualidad());
             ocultarsubmenu();
         }
 
         private void btncursos_Click(object sender, EventArgs e)
         {
-            abrirformularios(new regisrarCursos());
             ocultarsubmenu();
         }
 
@@ -263,7 +253,6 @@ namespace ProyectoColegio
 
         private void btnregistropadre_Click(object sender, EventArgs e)
         {
-            abrirformularios(new registrarPadre());
             ocultarsubmenu();
         }
 
@@ -342,7 +331,6 @@ namespace ProyectoColegio
 
         private void btnusuarios_Click(object sender, EventArgs e)
         {
-            abrirformularios(new registrarUsuario());
             ocultarsubmenu();
         }
 
@@ -355,8 +343,6 @@ namespace ProyectoColegio
 
         private void btnacercadenosotros_Click(object sender, EventArgs e)
         {
-            AcercaDeNosotro acercaNosotros = new AcercaDeNosotro();
-            acercaNosotros.Show();
             ocultarsubmenu();
         }
 

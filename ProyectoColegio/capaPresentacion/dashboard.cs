@@ -22,6 +22,16 @@ namespace ProyectoColegio
             labelCargo.Text = $"Cargo: {usuario.TipoUsuario}";
             labelNombre.Text = $"Nombre: {usuario.Nombre}";
             labelApellido.Text = $"Apellido: {usuario.ApellidoPaterno}";
+
+            // Cambia el estilo del botón a plano
+            //TestMenu.FlatStyle = FlatStyle.Flat;
+            // Elimina el borde del botón
+            //TestMenu.FlatAppearance.BorderSize = 0;
+        }
+
+        private void TestMenu_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

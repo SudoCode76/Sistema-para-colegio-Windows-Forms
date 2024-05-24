@@ -51,29 +51,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AcercaDeNosotro.cs">
+    <Compile Include="capaDatos\Usuario.cs" />
+    <Compile Include="capaNegocio\UsuarioNegocio.cs" />
+    <Compile Include="capaPresentacion\Actualizaciones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AcercaDeNosotro.Designer.cs">
-      <DependentUpon>AcercaDeNosotro.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Actualizaciones.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Actualizaciones.Designer.cs">
+    <Compile Include="capaPresentacion\Actualizaciones.Designer.cs">
       <DependentUpon>Actualizaciones.cs</DependentUpon>
     </Compile>
-    <Compile Include="baseDeDatos.cs" />
-    <Compile Include="dashboard.cs">
+    <Compile Include="capaDatos\baseDeDatos.cs" />
+    <Compile Include="capaPresentacion\dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="dashboard.Designer.cs">
+    <Compile Include="capaPresentacion\dashboard.Designer.cs">
       <DependentUpon>dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="estudiantesForm.cs">
+    <Compile Include="capaPresentacion\estudiantesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="estudiantesForm.Designer.cs">
+    <Compile Include="capaPresentacion\estudiantesForm.Designer.cs">
       <DependentUpon>estudiantesForm.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenus.cs">
@@ -82,120 +78,27 @@
     <Compile Include="FrmMenus.Designer.cs">
       <DependentUpon>FrmMenus.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmRecuperarContraseña.cs">
+    <Compile Include="capaPresentacion\login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmRecuperarContraseña.Designer.cs">
-      <DependentUpon>FrmRecuperarContraseña.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmRegistroEstudiantes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmRegistroEstudiantes.Designer.cs">
-      <DependentUpon>FrmRegistroEstudiantes.cs</DependentUpon>
-    </Compile>
-    <Compile Include="login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="login.Designer.cs">
+    <Compile Include="capaPresentacion\login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="regisrarCursos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="regisrarCursos.Designer.cs">
-      <DependentUpon>regisrarCursos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="registrarAdministrativo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="registrarAdministrativo.Designer.cs">
-      <DependentUpon>registrarAdministrativo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="registrarCalificacion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="registrarCalificacion.Designer.cs">
-      <DependentUpon>registrarCalificacion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="registrarGestion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="registrarGestion.Designer.cs">
-      <DependentUpon>registrarGestion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="registrarGrupo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="registrarGrupo.Designer.cs">
-      <DependentUpon>registrarGrupo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="registrarInscripcion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="registrarInscripcion.Designer.cs">
-      <DependentUpon>registrarInscripcion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="registrarMensualidad.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="registrarMensualidad.Designer.cs">
-      <DependentUpon>registrarMensualidad.cs</DependentUpon>
-    </Compile>
-    <Compile Include="registrarMateria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="registrarMateria.Designer.cs">
-      <DependentUpon>registrarMateria.cs</DependentUpon>
-    </Compile>
-    <Compile Include="registrarPadre.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="registrarPadre.Designer.cs">
-      <DependentUpon>registrarPadre.cs</DependentUpon>
-    </Compile>
-    <Compile Include="registrarProfesor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="registrarProfesor.Designer.cs">
-      <DependentUpon>registrarProfesor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="registrarProgramacion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="registrarProgramacion.Designer.cs">
-      <DependentUpon>registrarProgramacion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="registrarUsuario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="registrarUsuario.Designer.cs">
-      <DependentUpon>registrarUsuario.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="AcercaDeNosotro.resx">
-      <DependentUpon>AcercaDeNosotro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Actualizaciones.resx">
+    <EmbeddedResource Include="capaPresentacion\Actualizaciones.resx">
       <DependentUpon>Actualizaciones.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="dashboard.resx">
+    <EmbeddedResource Include="capaPresentacion\dashboard.resx">
       <DependentUpon>dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="estudiantesForm.resx">
+    <EmbeddedResource Include="capaPresentacion\estudiantesForm.resx">
       <DependentUpon>estudiantesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenus.resx">
       <DependentUpon>FrmMenus.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmRecuperarContraseña.resx">
-      <DependentUpon>FrmRecuperarContraseña.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FrmRegistroEstudiantes.resx">
-      <DependentUpon>FrmRegistroEstudiantes.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="login.resx">
+    <EmbeddedResource Include="capaPresentacion\login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -207,42 +110,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="regisrarCursos.resx">
-      <DependentUpon>regisrarCursos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="registrarAdministrativo.resx">
-      <DependentUpon>registrarAdministrativo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="registrarCalificacion.resx">
-      <DependentUpon>registrarCalificacion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="registrarGestion.resx">
-      <DependentUpon>registrarGestion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="registrarGrupo.resx">
-      <DependentUpon>registrarGrupo.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="registrarInscripcion.resx">
-      <DependentUpon>registrarInscripcion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="registrarMateria.resx">
-      <DependentUpon>registrarMateria.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="registrarMensualidad.resx">
-      <DependentUpon>registrarMensualidad.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="registrarPadre.resx">
-      <DependentUpon>registrarPadre.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="registrarProfesor.resx">
-      <DependentUpon>registrarProfesor.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="registrarProgramacion.resx">
-      <DependentUpon>registrarProgramacion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="registrarUsuario.resx">
-      <DependentUpon>registrarUsuario.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -256,5 +123,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
