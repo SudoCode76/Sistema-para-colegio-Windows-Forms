@@ -74,3 +74,15 @@ C:\Users\bo332\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-pa
 C:\Users\bo332\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.csproj.CopyComplete
 C:\Users\bo332\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.exe
 C:\Users\bo332\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.pdb
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.calificacionesForm.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.inscripAlumnosForm.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.registroProfesoresForm.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.cursosForms.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.registroAdministrativaForm.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.materiasForm.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.mensualidadesForm.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.reportePagosForms.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.reporteInscripcionForms.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.reporteMateriasForms.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.reporteNotasForms.resources

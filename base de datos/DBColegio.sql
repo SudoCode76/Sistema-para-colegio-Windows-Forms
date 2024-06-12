@@ -120,6 +120,20 @@ CREATE TABLE Materia (
     FOREIGN KEY (IdNivelCurso) REFERENCES NivelCurso(IdNivelCurso)
 );
 
+CREATE TABLE Cursos(
+    idCursoINT INT IDENTITY(1,1) PRIMARY KEY,
+    nombre NVARCHAR(100) NOT NULL,
+    nivel NVARCHAR(50),
+    estado NVARCHAR(20)
+)
+SELECT * FROM Materia;
+SELECT IdCurso, Nombre FROM Cursos;
+SELECT * FROM Cursos;
+SELECT * FROM Notas;
+SELECT * FROM Mensualidades;
+INSERT INTO Notas VALUES (1, 1, 65, 75, 86)
+
+
 -- Inscripción, Programación, Nota, Calendario Escolar, Administrativo, TipoPago, Mensualidad
 -- Aquí puedes continuar con las tablas restantes siguiendo el mismo patrón de correcciones.
 

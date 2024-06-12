@@ -33,13 +33,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.3.0\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI">
       <HintPath>C:\Users\Usuario\OneDrive\Escritorio\Sistema colegio\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -49,9 +55,17 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="capaDatos\Usuario.cs" />
+    <Compile Include="capaNegocio\Curso.cs" />
+    <Compile Include="capaNegocio\CursoInscrito.cs" />
+    <Compile Include="capaNegocio\Estudiante.cs" />
+    <Compile Include="capaNegocio\GestionCalificaciones.cs" />
+    <Compile Include="capaNegocio\GestionInscripcion.cs" />
+    <Compile Include="capaNegocio\Materia.cs" />
+    <Compile Include="capaNegocio\PagoEstudiante.cs" />
     <Compile Include="capaNegocio\UsuarioNegocio.cs" />
     <Compile Include="capaPresentacion\Actualizaciones.cs">
       <SubType>Form</SubType>
@@ -60,6 +74,18 @@
       <DependentUpon>Actualizaciones.cs</DependentUpon>
     </Compile>
     <Compile Include="capaDatos\baseDeDatos.cs" />
+    <Compile Include="capaPresentacion\calificacionesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\calificacionesForm.Designer.cs">
+      <DependentUpon>calificacionesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capaPresentacion\cursosForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\cursosForms.Designer.cs">
+      <DependentUpon>cursosForms.cs</DependentUpon>
+    </Compile>
     <Compile Include="capaPresentacion\dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +97,60 @@
     </Compile>
     <Compile Include="capaPresentacion\estudiantesForm.Designer.cs">
       <DependentUpon>estudiantesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capaPresentacion\registroAdministrativaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\registroAdministrativaForm.Designer.cs">
+      <DependentUpon>registroAdministrativaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capaPresentacion\inscripAlumnosForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\inscripAlumnosForm.Designer.cs">
+      <DependentUpon>inscripAlumnosForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capaPresentacion\materiasForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\materiasForm.Designer.cs">
+      <DependentUpon>materiasForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capaPresentacion\mensualidadesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\mensualidadesForm.Designer.cs">
+      <DependentUpon>mensualidadesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capaPresentacion\registroProfesoresForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\registroProfesoresForm.Designer.cs">
+      <DependentUpon>registroProfesoresForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capaPresentacion\reporteInscripcionForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\reporteInscripcionForms.Designer.cs">
+      <DependentUpon>reporteInscripcionForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capaPresentacion\reporteMateriasForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\reporteMateriasForms.Designer.cs">
+      <DependentUpon>reporteMateriasForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capaPresentacion\reporteNotasForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\reporteNotasForms.Designer.cs">
+      <DependentUpon>reporteNotasForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="capaPresentacion\reportePagosForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capaPresentacion\reportePagosForms.Designer.cs">
+      <DependentUpon>reportePagosForms.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMenus.cs">
       <SubType>Form</SubType>
@@ -89,11 +169,44 @@
     <EmbeddedResource Include="capaPresentacion\Actualizaciones.resx">
       <DependentUpon>Actualizaciones.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\calificacionesForm.resx">
+      <DependentUpon>calificacionesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\cursosForms.resx">
+      <DependentUpon>cursosForms.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="capaPresentacion\dashboard.resx">
       <DependentUpon>dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="capaPresentacion\estudiantesForm.resx">
       <DependentUpon>estudiantesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\registroAdministrativaForm.resx">
+      <DependentUpon>registroAdministrativaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\inscripAlumnosForm.resx">
+      <DependentUpon>inscripAlumnosForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\materiasForm.resx">
+      <DependentUpon>materiasForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\mensualidadesForm.resx">
+      <DependentUpon>mensualidadesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\registroProfesoresForm.resx">
+      <DependentUpon>registroProfesoresForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\reporteInscripcionForms.resx">
+      <DependentUpon>reporteInscripcionForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\reporteMateriasForms.resx">
+      <DependentUpon>reporteMateriasForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\reporteNotasForms.resx">
+      <DependentUpon>reporteNotasForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capaPresentacion\reportePagosForms.resx">
+      <DependentUpon>reportePagosForms.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenus.resx">
       <DependentUpon>FrmMenus.cs</DependentUpon>
@@ -110,6 +223,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
