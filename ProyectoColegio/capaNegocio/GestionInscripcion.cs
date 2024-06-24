@@ -15,9 +15,7 @@ namespace ProyectoColegio.capaNegocio
             db.InscribirEstudianteACurso(idEstudiante, idCurso);
         }
 
-        public void ProcesarPago(int idEstudiante, decimal monto, string observacion)
-        {
-            db.RegistrarPago(idEstudiante, monto, observacion);
-        }
+
+        
     }
 }

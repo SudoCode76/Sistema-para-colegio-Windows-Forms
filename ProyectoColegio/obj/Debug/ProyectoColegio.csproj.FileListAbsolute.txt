@@ -86,3 +86,8 @@ C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-pa
 C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.reporteInscripcionForms.resources
 C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.reporteMateriasForms.resources
 C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.reporteNotasForms.resources
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\bin\Debug\itextsharp.dll
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\bin\Debug\itextsharp.xml
+C:\Users\migue\OneDrive - Universidad Privada Domingo Savio\PROYECTOS\Sistema-para-colegio-Windows-Forms\ProyectoColegio\obj\Debug\ProyectoColegio.capaPresentacion.registroUsuarios.resources

@@ -15,12 +15,12 @@ namespace ProyectoColegio
 {
     public partial class login : Form
     {
-        private UsuarioNegocio usuarioNegocio;
+        private gestionUsuarios usuarioNegocio;
 
         public login()
         {
             InitializeComponent();
-            usuarioNegocio = new UsuarioNegocio();
+            usuarioNegocio = new gestionUsuarios();
             textBoxContraseña.PasswordChar = '*';
         }
 

@@ -259,5 +259,15 @@ namespace ProyectoColegio
             panelDashboard.Controls.Add(forselect);
             forselect.Show();
         }
+
+        private void iconButton16_Click(object sender, EventArgs e)
+        {
+            panelDashboard.Controls.Clear();
+            registroUsuarios forselect = new registroUsuarios();
+            forselect.TopLevel = false;
+            forselect.Dock = DockStyle.Fill;
+            panelDashboard.Controls.Add(forselect);
+            forselect.Show();
+        }
     }
 }

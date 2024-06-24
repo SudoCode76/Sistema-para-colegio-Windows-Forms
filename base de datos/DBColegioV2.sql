@@ -183,8 +183,12 @@ CREATE TABLE GestionEscolar (
 CREATE TABLE Administradores (
     idAdministrador INT IDENTITY(1,1) PRIMARY KEY,
     nombre NVARCHAR(100) NOT NULL,
+    apellido NVARCHAR(100);
     cargo NVARCHAR(100)
 );
+
+SELECT * FROM Administradores;
+DELETE FROM Administradores;
 
 -- Crear la tabla RegistroAdministradores
 CREATE TABLE RegistroAdministradores (
@@ -193,3 +197,19 @@ CREATE TABLE RegistroAdministradores (
     fechaRegistro DATE,
     FOREIGN KEY (idAdministrador) REFERENCES Administradores(idAdministrador)
 );
+
+-- Añadir columna 'apellido' a la tabla 'Administradores'
+ALTER TABLE Administradores
+ADD apellido NVARCHAR(100);
+
+-- Crear tabla 'Cargos'
+CREATE TABLE Cargos (
+    idCargo INT IDENTITY(1,1) PRIMARY KEY,
+    nombreCargo NVARCHAR(100) NOT NULL
+);
+
+-- Insertar cargos predefinidos
+INSERT INTO Cargos (nombreCargo) VALUES ('Director');
+INSERT INTO Cargos (nombreCargo) VALUES ('Secretario');
+INSERT INTO Cargos (nombreCargo) VALUES ('Coordinador');
+

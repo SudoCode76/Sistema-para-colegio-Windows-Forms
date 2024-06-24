@@ -44,8 +44,6 @@
             this.iconButtonCalificaciones = new FontAwesome.Sharp.IconButton();
             this.iconButtonEstudiantes = new FontAwesome.Sharp.IconButton();
             this.iconButtonRegistroProfesores = new FontAwesome.Sharp.IconButton();
-            this.panelDashboard = new System.Windows.Forms.Panel();
-            this.timerMenuTransicon = new System.Windows.Forms.Timer(this.components);
             this.panelGestionAdministrativa = new System.Windows.Forms.Panel();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.iconButton2 = new FontAwesome.Sharp.IconButton();
@@ -53,27 +51,30 @@
             this.iconButton4 = new FontAwesome.Sharp.IconButton();
             this.iconButton5 = new FontAwesome.Sharp.IconButton();
             this.panelReportAdmin = new System.Windows.Forms.Panel();
+            this.iconButton15 = new FontAwesome.Sharp.IconButton();
             this.iconButton7 = new FontAwesome.Sharp.IconButton();
+            this.iconButton14 = new FontAwesome.Sharp.IconButton();
+            this.iconButton13 = new FontAwesome.Sharp.IconButton();
             this.iconButton9 = new FontAwesome.Sharp.IconButton();
-            this.timerGestAdmin = new System.Windows.Forms.Timer(this.components);
-            this.timerReportAdmin = new System.Windows.Forms.Timer(this.components);
+            this.panelDashboard = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.iconButton6 = new FontAwesome.Sharp.IconButton();
             this.iconButton8 = new FontAwesome.Sharp.IconButton();
             this.iconButton10 = new FontAwesome.Sharp.IconButton();
             this.iconButton11 = new FontAwesome.Sharp.IconButton();
             this.iconButton12 = new FontAwesome.Sharp.IconButton();
-            this.iconButton13 = new FontAwesome.Sharp.IconButton();
-            this.iconButton14 = new FontAwesome.Sharp.IconButton();
-            this.iconButton15 = new FontAwesome.Sharp.IconButton();
+            this.timerMenuTransicon = new System.Windows.Forms.Timer(this.components);
+            this.timerGestAdmin = new System.Windows.Forms.Timer(this.components);
+            this.timerReportAdmin = new System.Windows.Forms.Timer(this.components);
+            this.iconButton16 = new FontAwesome.Sharp.IconButton();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbUsuario)).BeginInit();
             this.panelGestionAcademica.SuspendLayout();
-            this.panelDashboard.SuspendLayout();
             this.panelGestionAdministrativa.SuspendLayout();
             this.panelReportAdmin.SuspendLayout();
+            this.panelDashboard.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -85,6 +86,7 @@
             this.flowLayoutPanel1.Controls.Add(this.panelGestionAcademica);
             this.flowLayoutPanel1.Controls.Add(this.panelGestionAdministrativa);
             this.flowLayoutPanel1.Controls.Add(this.panelReportAdmin);
+            this.flowLayoutPanel1.Controls.Add(this.iconButton16);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -293,21 +295,6 @@
             this.iconButtonRegistroProfesores.UseVisualStyleBackColor = false;
             this.iconButtonRegistroProfesores.Click += new System.EventHandler(this.iconButtonRegistroProfesores_Click);
             // 
-            // panelDashboard
-            // 
-            this.panelDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(84)))));
-            this.panelDashboard.Controls.Add(this.panel3);
-            this.panelDashboard.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDashboard.Location = new System.Drawing.Point(223, 0);
-            this.panelDashboard.Name = "panelDashboard";
-            this.panelDashboard.Size = new System.Drawing.Size(925, 690);
-            this.panelDashboard.TabIndex = 1;
-            // 
-            // timerMenuTransicon
-            // 
-            this.timerMenuTransicon.Interval = 10;
-            this.timerMenuTransicon.Tick += new System.EventHandler(this.timerMenuTransicon_Tick);
-            // 
             // panelGestionAdministrativa
             // 
             this.panelGestionAdministrativa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(77)))), ((int)(((byte)(112)))));
@@ -446,6 +433,28 @@
             this.panelReportAdmin.Size = new System.Drawing.Size(223, 57);
             this.panelReportAdmin.TabIndex = 7;
             // 
+            // iconButton15
+            // 
+            this.iconButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
+            this.iconButton15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.iconButton15.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.iconButton15.IconChar = FontAwesome.Sharp.IconChar.Ellipsis;
+            this.iconButton15.IconColor = System.Drawing.Color.White;
+            this.iconButton15.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton15.IconSize = 30;
+            this.iconButton15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton15.Location = new System.Drawing.Point(0, 220);
+            this.iconButton15.Margin = new System.Windows.Forms.Padding(0);
+            this.iconButton15.Name = "iconButton15";
+            this.iconButton15.Size = new System.Drawing.Size(223, 55);
+            this.iconButton15.TabIndex = 10;
+            this.iconButton15.Text = "Reporte Materias";
+            this.iconButton15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton15.UseVisualStyleBackColor = false;
+            this.iconButton15.Click += new System.EventHandler(this.iconButton15_Click);
+            // 
             // iconButton7
             // 
             this.iconButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(47)))), ((int)(((byte)(58)))));
@@ -467,6 +476,50 @@
             this.iconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton7.UseVisualStyleBackColor = false;
             this.iconButton7.Click += new System.EventHandler(this.iconButton7_Click);
+            // 
+            // iconButton14
+            // 
+            this.iconButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
+            this.iconButton14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.iconButton14.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.iconButton14.IconChar = FontAwesome.Sharp.IconChar.Ellipsis;
+            this.iconButton14.IconColor = System.Drawing.Color.White;
+            this.iconButton14.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton14.IconSize = 30;
+            this.iconButton14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton14.Location = new System.Drawing.Point(0, 165);
+            this.iconButton14.Margin = new System.Windows.Forms.Padding(0);
+            this.iconButton14.Name = "iconButton14";
+            this.iconButton14.Size = new System.Drawing.Size(223, 55);
+            this.iconButton14.TabIndex = 9;
+            this.iconButton14.Text = "Reporte Notas";
+            this.iconButton14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton14.UseVisualStyleBackColor = false;
+            this.iconButton14.Click += new System.EventHandler(this.iconButton14_Click);
+            // 
+            // iconButton13
+            // 
+            this.iconButton13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
+            this.iconButton13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.iconButton13.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.iconButton13.IconChar = FontAwesome.Sharp.IconChar.Ellipsis;
+            this.iconButton13.IconColor = System.Drawing.Color.White;
+            this.iconButton13.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton13.IconSize = 30;
+            this.iconButton13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton13.Location = new System.Drawing.Point(0, 55);
+            this.iconButton13.Margin = new System.Windows.Forms.Padding(0);
+            this.iconButton13.Name = "iconButton13";
+            this.iconButton13.Size = new System.Drawing.Size(223, 55);
+            this.iconButton13.TabIndex = 8;
+            this.iconButton13.Text = "Reporte Inscripcion";
+            this.iconButton13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton13.UseVisualStyleBackColor = false;
+            this.iconButton13.Click += new System.EventHandler(this.iconButton13_Click);
             // 
             // iconButton9
             // 
@@ -490,15 +543,15 @@
             this.iconButton9.UseVisualStyleBackColor = false;
             this.iconButton9.Click += new System.EventHandler(this.iconButton9_Click);
             // 
-            // timerGestAdmin
+            // panelDashboard
             // 
-            this.timerGestAdmin.Interval = 10;
-            this.timerGestAdmin.Tick += new System.EventHandler(this.timerGestAdmin_Tick);
-            // 
-            // timerReportAdmin
-            // 
-            this.timerReportAdmin.Interval = 10;
-            this.timerReportAdmin.Tick += new System.EventHandler(this.timerReportAdmin_Tick);
+            this.panelDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(84)))));
+            this.panelDashboard.Controls.Add(this.panel3);
+            this.panelDashboard.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDashboard.Location = new System.Drawing.Point(223, 0);
+            this.panelDashboard.Name = "panelDashboard";
+            this.panelDashboard.Size = new System.Drawing.Size(925, 690);
+            this.panelDashboard.TabIndex = 1;
             // 
             // panel3
             // 
@@ -618,71 +671,42 @@
             this.iconButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton12.UseVisualStyleBackColor = false;
             // 
-            // iconButton13
+            // timerMenuTransicon
             // 
-            this.iconButton13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.iconButton13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.iconButton13.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.iconButton13.IconChar = FontAwesome.Sharp.IconChar.Ellipsis;
-            this.iconButton13.IconColor = System.Drawing.Color.White;
-            this.iconButton13.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton13.IconSize = 30;
-            this.iconButton13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton13.Location = new System.Drawing.Point(0, 55);
-            this.iconButton13.Margin = new System.Windows.Forms.Padding(0);
-            this.iconButton13.Name = "iconButton13";
-            this.iconButton13.Size = new System.Drawing.Size(223, 55);
-            this.iconButton13.TabIndex = 8;
-            this.iconButton13.Text = "Reporte Inscripcion";
-            this.iconButton13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton13.UseVisualStyleBackColor = false;
-            this.iconButton13.Click += new System.EventHandler(this.iconButton13_Click);
+            this.timerMenuTransicon.Interval = 10;
+            this.timerMenuTransicon.Tick += new System.EventHandler(this.timerMenuTransicon_Tick);
             // 
-            // iconButton14
+            // timerGestAdmin
             // 
-            this.iconButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.iconButton14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.iconButton14.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.iconButton14.IconChar = FontAwesome.Sharp.IconChar.Ellipsis;
-            this.iconButton14.IconColor = System.Drawing.Color.White;
-            this.iconButton14.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton14.IconSize = 30;
-            this.iconButton14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton14.Location = new System.Drawing.Point(0, 165);
-            this.iconButton14.Margin = new System.Windows.Forms.Padding(0);
-            this.iconButton14.Name = "iconButton14";
-            this.iconButton14.Size = new System.Drawing.Size(223, 55);
-            this.iconButton14.TabIndex = 9;
-            this.iconButton14.Text = "Reporte Notas";
-            this.iconButton14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton14.UseVisualStyleBackColor = false;
-            this.iconButton14.Click += new System.EventHandler(this.iconButton14_Click);
+            this.timerGestAdmin.Interval = 10;
+            this.timerGestAdmin.Tick += new System.EventHandler(this.timerGestAdmin_Tick);
             // 
-            // iconButton15
+            // timerReportAdmin
             // 
-            this.iconButton15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
-            this.iconButton15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.iconButton15.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.iconButton15.IconChar = FontAwesome.Sharp.IconChar.Ellipsis;
-            this.iconButton15.IconColor = System.Drawing.Color.White;
-            this.iconButton15.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton15.IconSize = 30;
-            this.iconButton15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton15.Location = new System.Drawing.Point(0, 220);
-            this.iconButton15.Margin = new System.Windows.Forms.Padding(0);
-            this.iconButton15.Name = "iconButton15";
-            this.iconButton15.Size = new System.Drawing.Size(223, 55);
-            this.iconButton15.TabIndex = 10;
-            this.iconButton15.Text = "Reporte Materias";
-            this.iconButton15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton15.UseVisualStyleBackColor = false;
-            this.iconButton15.Click += new System.EventHandler(this.iconButton15_Click);
+            this.timerReportAdmin.Interval = 10;
+            this.timerReportAdmin.Tick += new System.EventHandler(this.timerReportAdmin_Tick);
+            // 
+            // iconButton16
+            // 
+            this.iconButton16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(77)))), ((int)(((byte)(77)))));
+            this.iconButton16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.iconButton16.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButton16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.iconButton16.IconChar = FontAwesome.Sharp.IconChar.Ellipsis;
+            this.iconButton16.IconColor = System.Drawing.Color.White;
+            this.iconButton16.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton16.IconSize = 30;
+            this.iconButton16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton16.Location = new System.Drawing.Point(0, 325);
+            this.iconButton16.Margin = new System.Windows.Forms.Padding(0);
+            this.iconButton16.Name = "iconButton16";
+            this.iconButton16.Size = new System.Drawing.Size(223, 55);
+            this.iconButton16.TabIndex = 6;
+            this.iconButton16.Text = "Administrar Usuarios";
+            this.iconButton16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton16.UseVisualStyleBackColor = false;
+            this.iconButton16.Click += new System.EventHandler(this.iconButton16_Click);
             // 
             // dashboard
             // 
@@ -700,9 +724,9 @@
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbUsuario)).EndInit();
             this.panelGestionAcademica.ResumeLayout(false);
-            this.panelDashboard.ResumeLayout(false);
             this.panelGestionAdministrativa.ResumeLayout(false);
             this.panelReportAdmin.ResumeLayout(false);
+            this.panelDashboard.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -746,5 +770,6 @@
         private FontAwesome.Sharp.IconButton iconButton15;
         private FontAwesome.Sharp.IconButton iconButton14;
         private FontAwesome.Sharp.IconButton iconButton13;
+        private FontAwesome.Sharp.IconButton iconButton16;
     }
 }

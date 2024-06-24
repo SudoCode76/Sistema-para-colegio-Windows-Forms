@@ -21,7 +21,7 @@ namespace ProyectoColegio.capaPresentacion
             CargarEstudiantes();
             CargarCursos();
             ActualizarDgvCursosInscritos();
-            ActualizarDgvPagos();
+            
 
 
         }
@@ -57,21 +57,8 @@ namespace ProyectoColegio.capaPresentacion
             dgvCursosInscritos.DataSource = new BaseDeDatos().ObtenerCursosInscritos(Convert.ToInt32(cmbEstudiantes.SelectedValue));
         }
 
-        private void ActualizarDgvPagos()
-        {
-            // Este método debe llamar a una función que obtenga los pagos realizados del estudiante seleccionado y actualizar el DataGridView
-            dgvPagos.DataSource = new BaseDeDatos().ObtenerPagosEstudiante(Convert.ToInt32(cmbEstudiantes.SelectedValue));
-        }
+        
 
-        private void btnRegistrarPago_Click(object sender, EventArgs e)
-        {
-            int idEstudiante = Convert.ToInt32(cmbEstudiantes.SelectedValue);
-            decimal monto = Convert.ToDecimal(txtMonto.Text);
-            string observacion = txtObservacionPago.Text;
-
-            gestionInscripcion.ProcesarPago(idEstudiante, monto, observacion);
-            MessageBox.Show("Pago registrado correctamente.");
-            ActualizarDgvPagos();
-        }
+        
     }
 }

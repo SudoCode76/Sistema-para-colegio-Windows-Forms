@@ -16,5 +16,18 @@ namespace ProyectoColegio.capaNegocio
         public string Nacionalidad { get; set; }
         public string Direccion { get; set; }
         public string Tutor { get; set; }
+
+        public bool ActualizarEstudiante(Estudiante estudiante)
+        {
+            BaseDeDatos db = new BaseDeDatos();
+            return db.ActualizarEstudiante(estudiante);
+        }
+
+        public bool EliminarEstudiante(int idEstudiante)
+        {
+            BaseDeDatos db = new BaseDeDatos();
+            return db.EliminarEstudiante(idEstudiante);
+        }
+
     }
 }

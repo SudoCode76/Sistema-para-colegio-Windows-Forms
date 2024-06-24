@@ -45,6 +45,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.btnRegistrar = new FontAwesome.Sharp.IconButton();
             this.dgvEstudiantes = new System.Windows.Forms.DataGridView();
+            this.EditariconButton1 = new FontAwesome.Sharp.IconButton();
+            this.iconButton2 = new FontAwesome.Sharp.IconButton();
+            this.iconButton3 = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstudiantes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -195,7 +198,7 @@
             this.btnRegistrar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnRegistrar.IconColor = System.Drawing.Color.Black;
             this.btnRegistrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnRegistrar.Location = new System.Drawing.Point(321, 273);
+            this.btnRegistrar.Location = new System.Drawing.Point(219, 282);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(198, 48);
             this.btnRegistrar.TabIndex = 16;
@@ -214,12 +217,54 @@
             this.dgvEstudiantes.Size = new System.Drawing.Size(844, 150);
             this.dgvEstudiantes.TabIndex = 17;
             // 
+            // EditariconButton1
+            // 
+            this.EditariconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.EditariconButton1.IconColor = System.Drawing.Color.Black;
+            this.EditariconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.EditariconButton1.Location = new System.Drawing.Point(130, 566);
+            this.EditariconButton1.Name = "EditariconButton1";
+            this.EditariconButton1.Size = new System.Drawing.Size(198, 48);
+            this.EditariconButton1.TabIndex = 18;
+            this.EditariconButton1.Text = "Editar";
+            this.EditariconButton1.UseVisualStyleBackColor = true;
+            this.EditariconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
+            // iconButton2
+            // 
+            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton2.IconColor = System.Drawing.Color.Black;
+            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton2.Location = new System.Drawing.Point(451, 566);
+            this.iconButton2.Name = "iconButton2";
+            this.iconButton2.Size = new System.Drawing.Size(198, 48);
+            this.iconButton2.TabIndex = 19;
+            this.iconButton2.Text = "Eliminar";
+            this.iconButton2.UseVisualStyleBackColor = true;
+            this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
+            // 
+            // iconButton3
+            // 
+            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButton3.IconColor = System.Drawing.Color.Black;
+            this.iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton3.Location = new System.Drawing.Point(483, 282);
+            this.iconButton3.Name = "iconButton3";
+            this.iconButton3.Size = new System.Drawing.Size(198, 48);
+            this.iconButton3.TabIndex = 20;
+            this.iconButton3.Text = "Actualizar";
+            this.iconButton3.UseVisualStyleBackColor = true;
+            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
+            // 
             // estudiantesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(66)))), ((int)(((byte)(84)))));
             this.ClientSize = new System.Drawing.Size(925, 690);
+            this.Controls.Add(this.iconButton3);
+            this.Controls.Add(this.iconButton2);
+            this.Controls.Add(this.EditariconButton1);
             this.Controls.Add(this.dgvEstudiantes);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.txtTutor);
@@ -265,5 +310,8 @@
         private System.Windows.Forms.Label label8;
         private FontAwesome.Sharp.IconButton btnRegistrar;
         private System.Windows.Forms.DataGridView dgvEstudiantes;
+        private FontAwesome.Sharp.IconButton EditariconButton1;
+        private FontAwesome.Sharp.IconButton iconButton2;
+        private FontAwesome.Sharp.IconButton iconButton3;
     }
 }
